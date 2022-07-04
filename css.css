@@ -45,10 +45,31 @@ input {
     width: 300px;
     margin-top: 50px;
     margin-left: 90px;
+    color: white;
+    background-color: rgba(247, 0, 0, 0.993);
+    border-radius: 50%;
+}
+
+#BTNenviar:hover {
+    background-color: rgb(156, 4, 4);
+    transform: translate(-3%, -3%);
+    border-color: white;
 }
 
 #BTNlimpar {
+    display: block;
     padding: 7px;
+    color: white;
+    background-color: rgb(28, 28, 248);
+    border-radius: 70px;
+    width: 70px;
+    height: 70px;
+}
+
+#BTNlimpar:hover {
+    background-color: rgb(3, 3, 168);
+    transform: translate(-3%, -3%);
+    border-color: white;
 }
 
 #container {
